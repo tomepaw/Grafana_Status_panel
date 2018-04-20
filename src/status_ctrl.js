@@ -506,6 +506,8 @@ export class StatusPluginCtrl extends MetricsPanelCtrl {
 			default:
 				break;
 		}
+
+		this.display.push(series);
 	}
 
 	handleTextOnly(series, target) {
